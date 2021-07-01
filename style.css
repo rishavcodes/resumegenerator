@@ -1,0 +1,127 @@
+body{
+    font-family: 'Montserrat';
+}
+
+/* nabvar */
+
+.navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.navigationbar{
+    margin-top: 10px;
+    margin-left: 10%;
+
+}
+
+#navbarNav{
+    padding-left: 30%;
+    font-size: 1.2rem;
+}
+
+/* title page  */
+
+.title-words{
+    font-size: 5rem;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.checklist{
+    margin-left: 10%;
+    text-align: left;
+}
+
+#buildresume{
+    border-color: #fe8c26;
+    background-color: #fe8c26;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+/* cv temp img  */
+
+.cvtempimg{
+    border-color: black;
+}
+
+/* second page  */
+
+#steps{
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color: #0954b6;
+    color: white;
+}
+
+.steps-title{
+    padding-bottom: 10%;
+}
+
+.icon{
+    padding: 5% 0;
+}
+
+/* carosule  */
+
+#templates{
+    align-items: center;
+}
+
+#templates{
+    background-color: grey;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.template-image{
+    padding-left: 30px;
+    width: 40%;
+    margin: 10px;
+}
+
+
+#buildresume2{
+    border-color: #fe8c26;
+    background-color: #fe8c26;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* contact us  */
+
+.getintouch{
+    padding-bottom: 3%;
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+#footer{
+    margin-top: 5%;
+}
+
+#contactus{
+    margin-left: 30%;
+    text-align: left;
+}
+
+.form-group{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sendbutton{
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}

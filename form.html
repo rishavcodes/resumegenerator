@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- javascript  -->
+    
+    
+   
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <form onsubmit="return false" action="">
+        <div  class="container" id="cvform">
+            <h1 class="text-center my-3">Resume Generator</h1>
+            <p class="text-center">By team-9</p>
+
+    
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- first row  -->
+                    <h3>Personal Information</h3>
+    
+                    <div class="form-group">
+                        <label for="nameField">Your name</label>
+                        <input type="text" id="nameField" placeholder="Enter here" class="form-control">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="contaceField">Your Contact Number</label>
+                        <input type="text" id="contactField" placeholder="Enter here" class="form-control">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="addressField">Your Address</label>
+                        <textarea id="addressField" placeholder="Enter here" class="form-control"></textarea>
+                    </div>
+    
+                    <!-- social links  -->
+                    <h3 class="my-3">Social links</h3>
+    
+                    <div class="form-group">
+                        <label for="githubField">Github</label>
+                        <input type="text" id="githubField" placeholder="Enter here" class="form-control">
+                    </div>
+    
+                    <br>
+    
+                    <div class="form-group">
+                        <label for="instaField">instagram</label>
+                        <input type="text" id="instaField" placeholder="Enter here" class="form-control">
+                    </div>
+    
+                    <br>
+    
+                    <div class="form-group">
+                        <label for="liField">Linkedin</label>
+                        <input type="text" id="liField" placeholder="Enter here" class="form-control">
+                    </div>
+    
+    
+                </div>
+    
+    
+                <div class="col-md-6">
+                    <!-- first row  -->
+                    <h3>Professional Information</h3>
+    
+    
+                    <div class="form-group mt-2">
+                        <label for="objective">Objective</label>
+                        <textarea id="objective" placeholder="Enter here" class="form-control" rows="5"></textarea>
+                    </div>
+    
+                    <div class="form-group mt-2" id="we">
+                        <label for="weField">Work Experience</label>
+                        <textarea id="weField" placeholder="Enter here" class="form-control weField" rows="3"></textarea>
+                    </div>
+    
+                    <div class="form-group mt-2" id="we2">
+                        <label for="we1Field">Work Experience</label>
+                        <textarea id="we1Field" placeholder="Enter here" class="form-control weField" rows="3"></textarea>
+                    </div>
+    
+                    
+    
+                    <div class="form-group mt-2">
+                        <label for="aqField">Academic Qulification</label>
+                        <textarea id="aqField" placeholder="Enter here" class="form-control aqField" rows="3"></textarea>
+                    </div>
+    
+    
+    
+                </div>
+    
+                <div>
+                    <a href="index.html"><button class="lastbutton btn btn-primary btn-lg btn-dark mt-3">Last</button></a>
+    
+                </div>
+    
+                <div class="container  text-center">
+                    <a href=""><button onclick="generateCV()" class="btn btn-primary btn-lg btn-dark mt-3">Generate
+                            CV</button></a>
+    
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+    
+            </div>
+    
+    
+        </div>
+    
+    
+
+        
+    </form>
+
+    
+    <!-- cv template  -->
+
+    <div class="container" id="cv-form">
+        <div class="row">
+            <div class="col-md-2 background">
+                <div class="container">
+                    <img src="http://naikenviro.net/wp-content/uploads/2018/06/null.jpg" class="img-fluid mt-4" alt="">
+                    <p id="nameT">Rishav jha</p>
+                    <p id="contactT">966136353</p>
+                    <p id="addressT">Sohna road gurugram</p>
+
+                    <hr>
+
+                    <p><a id="gitT" href="">github</a></p>
+                    <p><a id="instaT" href="">instagram</a></p>
+                    <p><a id="linkT" href="">linkedIn</a></p>
+
+                </div>
+            </div>
+
+            <div class="col-md-8 py-3">
+
+                <h1 id="nameT2" class="text-center" style="font-weight: 980;">Rishav Jha</h1>
+
+                <!-- objective card  -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>Objective</h3>
+                    </div>
+                    <div class="card-body">
+                        <p id="objectiveT">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus accusantium libero autem.
+                            Sunt, nemo sed nisi fugiat ratione optio architecto! Aut, praesentium? Distinctio ipsum
+                            itaque aliquid praesentium? In, natus at harum voluptatibus minima explicabo praesentium eos
+                            exercitationem sit cupiditate quasi libero obcaecati! Nihil provident doloremque earum sint
+                            quibusdam dolores quos?</p>
+                    </div>
+                </div>
+
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>Work Experience</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul id="weT">
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, modi.</li>
+                        </ul>
+                        <ul id="we2T">
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, modi.</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+
+                <!-- academic qualifications   -->
+
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>Academic Qualifications</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul id="aqT">
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, modi.</li>
+                        </ul>
+                
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt-3 text-center">
+                <button onclick="printCV()" class="btn btn-lg btn-dark">
+                    Print CV
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> 
+
+
+
+</body>
+
+</html>
+
+
